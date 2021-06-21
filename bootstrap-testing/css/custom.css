@@ -1,0 +1,71 @@
+.avatar-container {
+  display: inline;
+  position: relative;
+}
+
+.avatar {
+  height: 150px;
+}
+
+.avatar-details {
+  border-radius: 100%;
+  font-size: 12px;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
+.avatar-details-shadow {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.name-container {
+  margin: 20px 0;
+}
+
+.name-container > * {
+  margin: 3px 0 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.generic-shadow {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-light {
+  background-color: #eeeeee;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.panel-container > address:last-of-type {
+  margin-bottom: 0;
+}
+
+.panel-button-container {
+  margin-top: 15px;
+}
+
+.jumbotron-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.jumbotron-sm-padding {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}

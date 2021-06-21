@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-light">
+  <!--[if lt IE 8]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="container">
+
+    <div class="row jumbotron-container">
+      <div class="jumbotron jumbotron-sm-padding text-center bg-white generic-shadow">
+        <div class="row">
+          <div class="avatar-container">
+            <img class="img-circle img-thumbnail avatar" src="https://randomuser.me/api/portraits/med/men/83.jpg" alt="Avatar">
+            <span class="glyphicon glyphicon-zoom-in avatar-details avatar-details-shadow cursor-pointer" onclick="alert('Show large avatar')"></span>
+          </div>
+          <div class="row name-container">
+            <p>Romain Hoogmoed</p>
+            <h5>lazyduck408</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <button class="btn btn-sm btn-primary">
+            Friends <span class="badge">424</span>
+          </button>
+          <button onclick="location.href='#sendMessage'" class="btn btn-sm btn-primary">
+            Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-heading text-center">
+            <h3 class="panel-title">Top Posts</h3>
+          </div>
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img src="resources/posts/jerry.jpeg" class="media-object img-thumbnail">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">What's the Deal With...</h4>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<small>...</small>
+                  <a href="#">
+                    <small>Read more</small>
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="media">
+              <div class="media-left">
+                <img src="resources/posts/iron-throne.jpg" class="media-object img-thumbnail">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Is Bran Stark the Night King?</h4>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<small>...</small>
+                  <a href="#">
+                    <small>Read more</small>
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <div class="text-center panel-button-container">
+              <button class="btn btn-sm btn-primary">View all</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Basics</h3>
+          </div>
+          <div class="panel-body panel-container">
+            <address>
+              <strong>Name</strong><br>
+              Romain Hoogmoed
+            </address>
+
+            <address>
+              <strong>Birthday</strong><br>
+              July 14, 1983
+            </address>
+
+            <address>
+              <strong>Gender</strong><br>
+              Male
+            </address>
+
+            <address>
+              <strong>From</strong><br>
+              The Netherlands
+            </address>
+
+            <address>
+              <strong>Member since</strong><br>
+              September 24, 2010
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Contact</h3>
+          </div>
+          <div class="panel-body">
+            <address>
+              <strong>Address</strong><br>
+              1861 Jan Pieterszoon Coenstraat<br>
+              Maasdriel, Zeeland 69217<br>
+              Netherlands
+            </address>
+
+            <address>
+              <strong>Username</strong><br>
+              lazyduck408
+            </address>
+
+            <address>
+              <strong>Email</strong><br>
+              <a href="mailto: romain.hoogmoed@example.com">romain.hoogmoed@example.com</a>
+            </address>
+
+            <address>
+              <strong>Phone</strong><br>
+              (065)-247-9303
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Replace with embedded Google Maps widget -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body well-sm text-right">
+            <img class="img-responsive" src="resources/map.png" alt="Location">
+            <small>1861 Jan Pieterszoon Coenstraat, Maasdriel, Zeeland 69217, Netherlands</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default" id="sendMessage">
+          <div class="panel-heading text-center">
+            <h3 class="panel-title">Send Message</h3>
+          </div>
+          <div class="panel-body">
+            <textarea class="form-control" placeholder="Enter a message" id="" cols="30" rows="10"></textarea>
+
+            <div class="text-right panel-button-container">
+              <button class="btn btn-sm btn-link">Clear</button>
+              <button class="btn btn-sm btn-primary">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
